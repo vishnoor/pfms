@@ -1,0 +1,89 @@
+<div class="pages navbar-fixed">
+    <div data-page="activity-details" class="page">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div>
+                    <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                </div>
+                <div class="center-text heading">Axis Bank</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="center-text page-heading">
+                <p class="center">Edit Activity</p>
+            </div>
+            <div class="list-block">
+                <span class="hidden activity-id">{{Id}}</span>
+                <ul>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Activity Date</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="text" id="txtActivityDate" value='{{ActivityDate}}' />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Department Visited</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="text" id="txtDeptVisited" value='{{DeptVisited}}' />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Scheme Name</div>
+                        </div>
+                        <div class="row">
+                            <input type="text" id="txtSchemeName" class='scheme-list-popup' value='{{SchemeName}}' />
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Project Stage</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="text" id="txtProjectStage" value='{{ProjectStage}}' />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Remarks</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="text" id="txtRemarks" value='{{Remarks}}' />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <p class="buttons-row">
+                    <a href="#" class="button left button-raised" id="btnSaveActivity">Save</a>
+                    <a href="#" class="button right button-raised" id="btnCancelActivity">Cancel</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$().ready(function() {
+    myApp.calendar({
+        input: '#txtActivityDate',
+        toolbar: true,
+        dateFormat: 'dd-mm-yyyy'
+    });
+
+});
+
+</script>
+

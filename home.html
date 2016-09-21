@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Axis Bank</title>
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="css/framework7.indexed-list.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+
+<body>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-reveal">
+        <div id="appMenu">
+        </div>
+    </div>
+    <div class="views">
+        <div class="view view-main">
+            <div class="pages navbar-fixed">
+                <div data-page="notice" class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div>
+                                <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                            </div>
+                            <div class="center-text heading">Axis Bank</div>
+                        </div>
+                    </div>
+                    <div class="page-content pull-to-refresh-content" data-ptr-distance="55">
+                        <div class="pull-to-refresh-layer">
+                            <div class="preloader"></div>
+                            <div class="pull-to-refresh-arrow"></div>
+                        </div>
+                        <div class="center-text page-heading">
+                            <p class="center">Notice Board</p>
+                        </div>
+                        <div class="content-block" id='notice-add'>
+                            <div class="content-block-inner">
+                                <a href="#" class="button active" id="btnAddNotice">Add Notice</a>
+                            </div>
+                        </div>
+                        <div class="list-block">
+                            <ul id='notice-item-pnl'>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="js/framework7.js"></script>
+    <!--script type="text/javascript" src="js/framework7.indexed-list.js"></script-->
+    
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/app/menu.js"></script>
+    <script type="text/javascript" src="js/app/notice.js"></script>
+    <script type="text/javascript" src="js/app/activity.js"></script>
+    <script type="text/javascript" src="js/app/scheme.js"></script>
+</body>
+<script type="text/javascript">
+    $().ready(function(){
+         noticeController.renderItems('#notice-item-pnl');
+         var pageContainer = $('div.page')[0];
+         myApp.initPage(pageContainer);
+     });
+</script>
+</html>

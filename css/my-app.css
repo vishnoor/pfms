@@ -1,0 +1,167 @@
+.hidden {
+    display: none;
+}
+
+.navbar, .toolbar
+{
+	color: #FFFFFF !important;
+	background-color: #B6215A !important;
+	text-align: center;
+}
+
+.button.active{
+	background-color: #B6215A !important;
+	color: #FFFFFF !important;
+}
+
+.button{
+	border-color: #B6215A !important;
+	color: #B6215A !important;
+}
+
+.center-logo
+{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    max-width: 85px;
+}
+
+.center-text
+{
+    text-align: center;
+    color: #B6215A !important;
+}
+
+.center-text.heading
+{
+	color: #FFFFFF !important;
+}
+
+.subheading{
+	color: #B6215A !important;
+}
+
+.panel{
+	background: #efe6e6 !important;
+}
+
+.page-heading
+{
+    border-bottom-color: #B6215A !important;
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+}
+
+.usr-name
+{
+	float: right;
+	font-size: 12px;
+}
+
+.topic
+{
+
+	font-size: 12px;
+}
+
+.notice-item, .activity-item, .my-list-item
+{
+	margin: 8px;
+	padding: 4px;
+}
+
+.notice-item:before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0,0,0,.12);
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.content-block
+{
+    margin : 0 0 !important;
+}
+
+.list-block
+{
+    margin : 0 0 !important;
+}
+
+.item-input span {
+    font-size: 12px !important
+}
+
+.wrap {
+    box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     webkit-box-sizing:border-box;
+     display:block; 
+     white-space: pre-wrap;  
+     white-space: -moz-pre-wrap; 
+     white-space: -pre-wrap; 
+     white-space: -o-pre-wrap; 
+     word-wrap: break-word; 
+     width:100%; overflow-x:auto;
+}
+
+.header
+{
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.picker-item
+{
+    box-sizing:border-box;
+     -moz-box-sizing:border-box;
+     webkit-box-sizing:border-box;
+     display:block; 
+     white-space: pre-wrap;  
+     white-space: -moz-pre-wrap; 
+     white-space: -pre-wrap; 
+     white-space: -o-pre-wrap; 
+     word-wrap: break-word; 
+     width:100%; overflow-x:auto;
+     font-size: 12px;
+}
+
+.bordered
+{
+    border-radius: 12px !important;
+    border: 1px solid #999999 !important;
+    padding: 8px !important; 
+}
+
+.searchbar {
+   background: #014363 !important;
+
+}
+
+.contacts-block li:not(.list-group-title) {
+     padding-left: 8px !important;
+}
+
+.list-index
+{
+    margin-top: 44px !important;
+}
+
+.list-block input[type=time], .list-block input[type=number], .list-block input[type=search], 
+.list-block input[type=text], .list-block input[type=password], .list-block input[type=email], 
+.list-block input[type=tel], .list-block input[type=url], .list-block input[type=date], 
+.list-block input[type=datetime-local], .list-block select, .list-block textarea
+{
+    border-bottom: solid 2px #B6215A !important;
+}

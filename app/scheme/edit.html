@@ -1,0 +1,79 @@
+<div class="pages navbar-fixed">
+    <div data-page="scheme-edit" class="page">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div>
+                    <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                </div>
+                <div class="center-text heading">Axis Bank</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="center-text page-heading">
+                <p class="center">Edit Scheme</p>
+            </div>
+            <div class="list-block">
+                <span class="hidden scheme-id">{{Id}}</span>
+                <ul>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Scheme Name</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <textarea id="txtSchemeName1">{{SchemeName}}</textarea> 
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Ministry</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="text"  id="txtMinistry" value='{{Ministry}}' />
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Plan Outlay</div>
+                        </div>
+                        <div class="row">
+                            <input type="number" step="0.01" min="0" id="txtPlanOutlay" value='{{PlanOutlay}}' />
+                        </div>
+                    </li>
+                    <li class="list-item my-list-item">
+                        <div class="row">
+                            <div class="col-100 header">Is Active</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100 topic">
+                                <input type="checkbox" id="txtIsActive" checked='{{IsActive}}' />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <p class="buttons-row">
+                    <a href="#" class="button left button-raised" id="btnSaveScheme">Save</a>
+                    <a href="#" class="button right button-raised" id="btnCancelScheme">Cancel</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$().ready(function() {
+    myApp.calendar({
+        input: '#txtActivityDate',
+        toolbar: true,
+        dateFormat: 'dd-mm-yyyy'
+    });
+
+});
+
+</script>
+

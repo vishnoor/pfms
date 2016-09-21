@@ -1,0 +1,606 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sea",
+				"searchBar"
+			],
+			[
+				"schem",
+				"schemeController"
+			],
+			[
+				"na",
+				"naviagteToIndex"
+			],
+			[
+				"sec",
+				"schemeController"
+			],
+			[
+				"page",
+				"pageContent"
+			],
+			[
+				"data",
+				"data-index-letter"
+			],
+			[
+				"idx",
+				"idxHtml"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"Schem",
+				"SchemeName"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"my",
+				"myApp"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"comp",
+				"compiled"
+			],
+			[
+				"ite",
+				"items"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"com",
+				"compile"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"nt",
+				"noticeController"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"notice",
+				"noticeController"
+			],
+			[
+				"doGet",
+				"doGetHTML"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"get",
+				"getTemplate"
+			],
+			[
+				"notic",
+				"noticeController"
+			],
+			[
+				"pfms",
+				"pfmsSerialized"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"border-bo",
+				"border-bottom-width"
+			],
+			[
+				"border-b",
+				"border-bottom-color"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"user",
+				"usrName"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"bod",
+				"bodyId"
+			],
+			[
+				"col-lg",
+				"col-lg-3"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"paddin",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4875,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Html",
+				"HTMLBeautify"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/xampp/htdocs/pfms",
+		"/E/xampp/htdocs/pfms/app",
+		"/E/xampp/htdocs/pfms/css",
+		"/E/xampp/htdocs/pfms/js",
+		"/E/xampp/htdocs/pfms/js/app"
+	],
+	"file_history":
+	[
+		"/E/xampp/htdocs/pfms/app/scheme/list.html",
+		"/E/xampp/htdocs/pfms/js/my-app.js",
+		"/E/xampp/htdocs/pfms/js/app/scheme.js",
+		"/E/xampp/htdocs/pfms/js/app/login.js",
+		"/E/xampp/htdocs/pfms/home.html",
+		"/E/xampp/htdocs/pfms/app/notice/add.html",
+		"/E/xampp/htdocs/pfms/app/notice/notice.html",
+		"/E/xampp/htdocs/pfms/app/notice/notice-item.tmpl",
+		"/E/xampp/htdocs/pfms/js/app/menu.js",
+		"/E/xampp/htdocs/pfms/menu/menu.html",
+		"/E/xampp/htdocs/pfms/index.html",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/AccountController.cs",
+		"/C/Users/Vishnoo Rath/Documents/Received Files/userlog.php",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/DashBoardController.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/SearchController.cs",
+		"/C/Users/Vishnoo Rath/Documents/Received Files/dashboard_form.php",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/MandateController.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/ActivityController.cs",
+		"/E/xampp/htdocs/pfms/js/app/contact.js",
+		"/E/xampp/htdocs/pfms/app/contact/search-contact.html",
+		"/E/xampp/htdocs/pfms/app/scheme/edit.html",
+		"/E/Workspace/Brics_MERGED/Brics/Brics.Web/Controllers/User/RegistrationController.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Web.config",
+		"/C/Users/Vishnoo Rath/Downloads/bootbox.min.js",
+		"/E/xampp/htdocs/pfms/js/app/notice.js",
+		"/E/xampp/htdocs/pfms/app/activity/list.html",
+		"/E/xampp/htdocs/pfms/js/app/activity.js",
+		"/E/xampp/htdocs/pfms/css/my-app.css",
+		"/E/xampp/htdocs/pfms/app/notice/notice-details.html",
+		"/E/xampp/htdocs/pfms/app/activity/activity-details.html",
+		"/E/xampp/htdocs/pfms/app/scheme/scheme-details.html",
+		"/E/xampp/htdocs/pfms/app/activity/edit.html",
+		"/E/xampp/htdocs/pfms/app/scheme/scheme-item.tmpl",
+		"/E/xampp/htdocs/pfms/app/activity/activity-item.tmpl",
+		"/E/xampp/htdocs/pfms/app/notice/edit.html",
+		"/E/xampp/htdocs/pfms/app/activity",
+		"/E/xampp/htdocs/pfms/js/framework7.js",
+		"/E/xampp/htdocs/pfms/notice.html",
+		"/E/xampp/htdocs/pfms/template/notice-item.html",
+		"/E/xampp/htdocs/pfms/dashboard.html",
+		"/E/xampp/htdocs/pfms/template/notice-item.tmpl",
+		"/E/xampp/htdocs/pfms/services.html",
+		"/E/xampp/htdocs/pfms/about.html",
+		"/F/xampp/htdocs/pfms/js/framework7.js",
+		"/F/xampp/htdocs/pfms/js/my-app.js",
+		"/F/xampp/htdocs/pfms/login.html",
+		"/F/xampp/htdocs/pfms/site/pfms.js",
+		"/F/xampp/htdocs/pfms/site/site.css",
+		"/F/xampp/htdocs/pfms/ratchet-v2.0.2/css/ratchet.css",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/Constants.cs",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/Resources/menu/show_geofence_transitions.xml",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/Resources/layout/main_activity.xml",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/GeofenceErrorMessages.cs",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/GeofenceTransitionsIntentService.cs",
+		"/C/Users/Vishnoo Rath/Downloads/Geofencing/Geofencing/MainActivity.cs",
+		"/F/xampp/htdocs/f7/js/app/login.js",
+		"//ashok-pc/wwwroot/Web.config",
+		"/F/xampp/htdocs/f7/js/my-app.js",
+		"/F/xampp/htdocs/f7/index.html",
+		"//ashok-pc/wwwroot/logs/logfile.txt",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Views/dashboard.html",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/DB/ActivityLog.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/App_Start/WebApiConfig.cs",
+		"/F/emqttd-1.1.2/emqttd/releases/1.1.2-1-g8403dcc/emqttd.script",
+		"/F/emqttd-1.1.2/emqttd/releases/start_erl.data",
+		"/F/emqttd-1.1.2/emqttd/releases/RELEASES",
+		"/F/emqttd-1.1.2/emqttd/bin/start_clean.boot",
+		"/F/emqttd-1.1.2/emqttd/bin/start_erl.cmd",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Models/APIResponse.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Controllers/InteractionController.cs",
+		"/E/Workspace/Axis Bank/PFMSSvc/PFMSSvc/Models/NoticeBoardViewModel.cs",
+		"/E/Workspace/Axis Bank/Delivery/Publish/Web.config",
+		"//ASHOK-PC/wwwroot/Web.config",
+		"/F/Framework7-1.4.2/kitchen-sink-ios/login-screen-embedded.html",
+		"/F/Framework7-1.4.2/kitchen-sink-ios/login-screen.html",
+		"/E/Workspace/HRMS/Jharkhand/eService/groker.bat",
+		"/C/Users/Vishnoo Rath/Documents/visual studio 2013/Projects/WebApplication1/WebApplication1/'property_contexts'",
+		"/F/xampp/htdocs/homer-admin/portlets/graphs/StateWiseFundReport.html",
+		"/F/xampp/htdocs/homer-admin/scripts/app.js",
+		"/E/Workspace/HRMS/Jharkhand/eService/page3.html",
+		"/F/Framework7-1.4.2/kitchen-sink-material/jade/accordion.jade",
+		"/F/xampp/htdocs/homer-admin/portal-dashboard.html",
+		"/F/sortable/javascripts/demo.js",
+		"/E/Workspace/AM Home/CSRApp/CSRApp/CSRApp.Repository/Repository/BranchDataRepository.cs",
+		"//ashok-pc/My Apps/cs.txt",
+		"/E/Workspace/AM Home/CSRApp/CSRApp/CSRApp.Repository/Repository/CallRepository.cs",
+		"/C/Users/Vishnoo Rath/AppData/Local/Temp/Temp1_JwtTokenExample.zip/SimpleJwtTokenExample/Program.cs",
+		"/C/Users/Vishnoo Rath/Documents/IISExpress/config/applicationhost.config",
+		"/C/Users/Vishnoo Rath/Downloads/SQLRelationBuilder_src/Level54/Data/SQLClient/SQLRelationBuilder/SQLRelationBuilder.vb",
+		"/C/Users/Vishnoo Rath/Downloads/SQLRelationBuilder_src/Level54/Data/SQLClient/SQLRelationBuilder/SQLScripts.resx",
+		"/C/Users/Vishnoo Rath/Downloads/download",
+		"/F/sortable/Index.html",
+		"/E/Workspace/AM Home/CSRApp/CSRApp/CSRApp/Scripts/app.js",
+		"/E/Workspace/AM Home/CSRApp/CSRApp/CSRApp/Views/Home/Index.cshtml",
+		"/E/Workspace/AM Home/CSRApp/CSRApp/CSRApp/Web.config",
+		"/F/xampp/apache/conf/httpd.conf",
+		"/F/xampp/htdocs/loyaltyApp/resources/views/tasks.blade.php",
+		"/F/xampp/htdocs/loyaltyApp/app/Http/routes.php",
+		"/F/PHPDesigner/phpdesigner_8_1_2_usb_setup/xmlJavaScript-jQuery.xml",
+		"/F/xampp/htdocs/loyaltyApp/resources/views/layouts/app.blade.php",
+		"/F/xampp/htdocs/loyaltyApp/app/Task.php",
+		"/F/xampp/htdocs/loyaltyApp/public/index.php",
+		"/F/xampp/htdocs/loyaltyApp/bootstrap/app.php",
+		"/F/xampp/htdocs/loyaltyApp/bootstrap/autoload.php",
+		"/F/xampp/htdocs/loyaltyApp/public/web.config",
+		"/F/xampp/htdocs/loyaltyApp/public/robots.txt",
+		"/F/xampp/htdocs/loyaltyApp/public/.htaccess",
+		"/F/xampp/htdocs/loyaltyApp/database/migrations/2016_08_01_142430_create_tasks_table.php",
+		"/F/xampp/htdocs/loyaltyApp/readme.md",
+		"/F/xampp/htdocs/loyaltyApp/package.json",
+		"/F/xampp/htdocs/loyaltyApp/composer.json",
+		"/F/xampp/htdocs/loyaltyApp/.env",
+		"/F/xampp/htdocs/loyaltyApp/resources/views/common/errors.blade.php",
+		"/F/xampp/htdocs/loyaltyApp/config/database.php",
+		"/F/xampp/htdocs/loyaltyApp/database/migrations/2016_08_01_135853_create_sessions_table.php",
+		"/F/xampp/htdocs/loyaltyApp/config/session.php",
+		"/F/xampp/htdocs/loyaltyApp/database/migrations/2016_08_01_135655_create_sessions_table.php",
+		"/F/xampp/htdocs/loyaltyApp/artisan",
+		"/F/xampp/htdocs/loyaltyApp/config/cache.php",
+		"/F/Workspace/loyaltyApp/config/app.php",
+		"/F/Workspace/php-5.6.24/php.ini-development",
+		"/E/Workspace/MPLAD/homer_admin-v1.9/analytics.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\xampp\\htdocs\\pfms\\",
+			"E:\\xampp\\htdocs\\pfms\\*.html",
+			"E:\\xampp\\htdocs\\pfms\\",
+			"F:\\xampp\\htdocs\\pfms\\",
+			"F:\\xampp\\htdocs\\pfms\\*",
+			"F:\\xampp\\htdocs\\pfms",
+			"F:\\xampp\\htdocs\\loyaltyApp\\",
+			"F:\\xampp\\htdocs\\loyaltyApp\\config",
+			"E:\\Workspace\\AM Home\\CSRApp\\CSRApp\\",
+			"E:\\Workspace\\AM Home\\CSRApp\\CSRApp\\*.cs",
+			"E:\\Workspace\\AM Home\\CSRApp\\CSRApp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scheme",
+			"txtSchemeName",
+			"renderItems",
+			"activity",
+			"notice",
+			"item-inner menu-item",
+			"initPullToRefresh",
+			"initPageWithCallback",
+			"pageInitCallback",
+			"initPage",
+			"initPullToRefresh",
+			"checkAccess",
+			"data-page",
+			" { get; set; }",
+			"public string ",
+			"  [Required]",
+			"{ get; set; }",
+			"public",
+			"<%=",
+			"<=%",
+			"homestead",
+			"col-lg-3",
+			"	",
+			"Fee",
+			"Solicitor",
+			"margin",
+			"IPrincipal",
+			"IUser",
+			"GetAllEntitySets"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"contact",
+			"scheme",
+			"activity",
+			"item-inner",
+			"",
+			"col-lg-4",
+			"Lookup",
+			"Barrister"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4875,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								743,
+								743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "axis-pfms.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 261.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

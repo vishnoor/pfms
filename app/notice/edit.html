@@ -1,0 +1,81 @@
+<div class="pages navbar-fixed">
+    <div data-page="notice-edit" class="page">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div>
+                    <a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+                </div>
+                <div class="center-text heading">Axis Bank</div>
+            </div>
+        </div>
+        <div class="page-content">
+            <div class="center-text page-heading">
+                <p class="center">Edit Notice</p>
+            </div>
+            <div class="list-block">
+                <span class="hidden notice-id">{{Id}}</span>
+                <ul>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">Valid Till</div>
+                                <div class="item-input">
+                                    <input type="text" id="txtNoticeDate" value='{{ValidTill}}' readonly>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">Priority</div>
+                                <div class="item-input">
+                                    <select id="ddlPriority">
+                                        <option value="1">High</option>
+                                        <option value="2">Normal</option>
+                                        <option value="3">Low</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">Subject</div>
+                                <div class="item-input">
+                                    <input type="text" id="txtSubject" value='{{Topic}}' />
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">Description</div>
+                                <div class="item-input">
+                                    <textarea id="txtDescription">{{Content}}</textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="content-block">
+                <p class="buttons-row">
+                    <a href="#" class="button left button-raised" id="btnSaveNotice">Save</a>
+                    <a href="#" class="button right button-raised" id="btnCancelNotice">Cancel</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+$().ready(function(){
+    myApp.calendar({
+        input: '#txtNoticeDate',
+        toolbar: true,
+        dateFormat: 'dd-mm-yyyy'
+    });          
+})
+</script>
